@@ -1,0 +1,19 @@
+{
+  "name": "ytdl-ultra-backend",
+  "version": "1.0.0",
+  "description": "Backend server for YouTube Downloader Ultra",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "install-ytdlp": "node api/install-ytdlp.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "ytdl-core": "^4.11.5",
+    "yt-dlp-wrap": "^2.3.12"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
