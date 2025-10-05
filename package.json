@@ -14,6 +14,6 @@
     "yt-dlp-wrap": "^2.3.12"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   }
 }
